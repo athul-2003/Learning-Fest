@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+}
+.boxes1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.boxes2{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.box{
+    border: 5px solid gray;
+    width: 100px; 
+    height: 100px;
+}

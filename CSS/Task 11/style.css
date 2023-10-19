@@ -1,0 +1,16 @@
+.bod{
+    border: 5px solid red;
+    padding: 10px;
+    border-radius: 40px;
+    width: 800px;
+    height: 100px;
+
+}
+.bodd{
+    border: 2px solid red;
+    width:800px;
+    height:100px;
+    padding: 10px;
+    border-radius: 40px 20px;
+    margin: 10px;
+}

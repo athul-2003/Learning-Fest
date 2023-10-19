@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.rainbow{
+    width: 450px;
+    height: 40px;
+    background:linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+p{
+    color: grey;
+    font-weight: bolder;
+    font-size: x-large;
+}

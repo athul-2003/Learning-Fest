@@ -1,0 +1,11 @@
+.ret{
+    display: flex;
+    flex-direction: column;
+}
+.flexx{
+    display: flex;
+    justify-content: space-around;
+}
+.middle{
+    text-align: center;
+}

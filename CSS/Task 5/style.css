@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+}
+.para{
+    font-weight: bolder;
+    margin-left: 20%;
+}
+.box{
+    padding: 50px;
+    background-color: lightblue;
+    border: 10px solid black;
+    text-align: justify;
+    width: fit-content;
+    margin-left: 20%;
+}
