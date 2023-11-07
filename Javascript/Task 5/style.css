@@ -1,0 +1,20 @@
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.data-table {
+    border-collapse:collapse;
+    width: 60%;
+    background-color:aliceblue;
+}
+.data-table th, .data-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.data-table th {
+    background-color: #f2f2f2;
+}

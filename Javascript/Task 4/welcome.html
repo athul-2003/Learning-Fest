@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .button {
+            margin-top: 20px;
+        }
+        
+        .button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Welcome to our website</h1>
+        <h2><span id="user"></span></h2>
+        <p>Thank you for visiting us!</p>
+        <div class="button">
+            <a href="index.html">Log Out</a>
+        </div>
+    </div>
+
+
+    <script>
+        // Retrieve the username from the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+        
+        // Update the span element with the username
+        const userSpan = document.getElementById('user');
+        userSpan.textContent = username;
+    </script>
+</body>
+</html>
